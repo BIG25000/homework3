@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 1rem;
+    border-bottom: 1px solid silver;
+
+}
+
+.header-con {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.menu li {
+    margin: 0 1rem;
+}
+
+.menu li a {
+    text-decoration: none;
+}
+
+.container h1 {
+    margin-top: 4.5rem;
+}
+
+.box-con {
+    display: flex;
+    /* border: 1px solid rgb(226, 25, 25); */
+    height: 500px;
+}
+
+.box-info {
+    width: 100%;
+    /* border: 1px solid rgb(224, 71, 71); */
+    padding: 1rem;
+
+
+}
+
+.box-order {
+    margin: 2rem 1rem;
+    width: 100%;
+    padding: 1.3rem;
+    height: 60%;
+    border: 1px solid silver;
+    border-radius: 4%;
+
+}
+
+.boxdoc {
+    margin: 1rem;
+    border: 1px solid silver;
+    height: 40%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 4%;
+}
+
+.boxdoc>i {
+
+    padding: 1rem;
+    border: 1px solid green;
+    border-radius: 50%;
+}
+
+.boxdoc>.used {
+    background-color: blue;
+    border: 1px solid blue;
+    padding: 0.4rem;
+    height: 125px;
+    margin: 1rem 1rem;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.level {
+    /* border: 1px solid black; */
+    width: 150px;
+    height: 125px;
+    padding: 1rem;
+}
+
+.circle {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem;
+}
+
+.circle>i {
+    padding: 2px;
+    display: flex;
+
+}
+
+.boxdoc>.used2 {
+    background-color: orange;
+    border: 1px solid orange;
+    padding: 0.4rem;
+    height: 125px;
+    margin: 1rem 1rem;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.sub {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem;
+}
+
+.pro {
+    margin: 1rem 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pro>p {
+    border: 1px solid green;
+    color: green;
+    padding: 0.5rem;
+    border-radius: 10%;
+}
+
+.total {
+    margin: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-order h4 {
+    margin: 1rem;
+    text-align: center;
+    border: 1px solid green;
+    background-color: green;
+    border-radius: 5%;
+    padding: 10px;
+
+}
+hr {
+    color:silver;
+}
